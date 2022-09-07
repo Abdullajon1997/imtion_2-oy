@@ -1,0 +1,255 @@
+.manage
+{
+    &__inner
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 80px;
+        &__img
+        {
+            display: block;
+        }
+        &__png
+        {
+            display: none;
+        }
+        &__div
+        {
+            width: 350px;
+            padding-right: 95px;
+            position: relative;
+            &::before
+            {
+                content: url(../../images/line.png);
+                position: absolute;
+                top: -70px;
+            }
+            &::after
+            {
+                content: url(../../images/line.png);
+                position: absolute;
+                left: 0;
+                top: 420px;
+            }
+        }
+        &__h1
+        {
+            font-family: 'Ibarra Real Nova';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 42px;
+            letter-spacing: -0.357143px;
+            color: #33323D;
+            margin-bottom: 28px;
+
+        }
+        &__p
+        {
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 30px;
+            color: #33323D;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+            margin-bottom: 24px;
+        }
+       
+    }
+}
+// =========================Bookmark===================//
+.bookmark{
+    &__inner
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 80px;
+        &__img
+        {
+            width: 540px;
+            display: block;
+        }
+        &__png
+        {
+            display: none;
+        }
+        &__jpg
+        {
+            display: none;
+        }
+        &__div
+        {
+            width: 350px;
+            padding-left: 95px;
+            position: relative;
+            &::before
+            {
+                content: url(../../images/line.png);
+                position: absolute;
+                top: -40px;
+            }
+            &::after
+            {
+                content: url(../../images/line.png);
+                position: absolute;
+                left: 92px;
+                top: 400px;
+            }
+        }
+        &__h2
+        {
+            font-family: 'Ibarra Real Nova';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 42px;
+            letter-spacing: -0.357143px;
+            color: #33323D;
+            
+
+        }
+        &__p
+        {
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 30px;
+            color: #33323D;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+        }
+    }
+}
+// ===============Insure======================//
+.insure
+{
+    &__inner
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 80px;
+        &__img
+        {
+            display: block;
+        }
+        &__png
+        {
+            display: none;
+        }
+        &__div
+        {
+            width: 350px;
+            padding-right: 95px;
+            position: relative;
+            &::before
+            {
+                content: url(../../images/line.png);
+                position: absolute;
+                top: -70px;
+            }
+            &::after
+            {
+                content: url(../../images/line.png);
+                position: absolute;
+                left: 0;
+                top: 420px;
+            }
+        }
+        &__h1
+        {
+            font-family: 'Ibarra Real Nova';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 42px;
+            letter-spacing: -0.357143px;
+            color: #33323D;
+            margin-bottom: 28px;
+
+        }
+        &__p
+        {
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 30px;
+            color: #33323D;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+            margin-bottom: 24px;
+        }
+    }
+}
+// ========================Fylo===========================//
+.fylo
+{
+    &__inner
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 80px;
+        &__img
+        {
+            width: 540px;
+            display: block;
+        }
+        &__png
+        {
+            display: none;
+        }
+        &__jpg
+        {
+            display: none;
+        }
+        &__div
+        {
+            width: 350px;
+            padding-left: 95px;
+            position: relative;
+            &::before
+            {
+                content: url(../../images/line.png);
+                position: absolute;
+                top: -65px;
+            }
+            &::after
+            {
+                content: url(../../images/line.png);
+                position: absolute;
+                left: 92px;
+                top: 430px;
+            }
+        }
+        &__h2
+        {
+            font-family: 'Ibarra Real Nova';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 42px;
+            letter-spacing: -0.357143px;
+            color: #33323D;
+            margin-bottom: 28px;
+        }
+        &__p
+        {
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 30px;
+            color: #33323D;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+            margin-bottom: 24px;
+        }
+    }
+}

@@ -1,0 +1,55 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+    scroll-behavior: smooth;
+  }
+  
+  
+  body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family:  'Arial', 'sans-serif';
+    margin: 0;
+    padding: 0;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    object-fit: cover;
+  }
+  
+  .main {
+    flex-grow: 1;
+  } 
+  .btn
+  {
+      font-family: 'Public Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #33323D;
+      padding: 17px 36px 17px 32px;
+      &:hover
+      {
+          background: #33323D;
+          font-family: 'PublicSans';
+          font-size: 12px;
+          line-height: 14px;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+          color: #FAFAFA;
+          cursor: pointer;
+      }
+  }

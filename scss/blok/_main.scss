@@ -1,0 +1,219 @@
+.beautiful
+{
+    &__inner
+    {
+        background-image: url(../../images/beautiful__png.png);
+        background-size: auto;
+        background-repeat: no-repeat;
+        height: 600px;
+        position: relative;
+        
+        &__div
+        {
+            background: #FAFAFA;
+            width: 445px;
+            padding-top: 28px;
+            position: absolute;
+            top: 234px;
+        }
+        &__h1
+        {
+            font-family: 'Ibarra Real Nova';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 50px;
+            letter-spacing: -0.446429px;
+            color: #33323D;
+            width: 390px;
+            margin-bottom: 53px;
+
+        }
+        &__btn
+        {
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            text-align: center;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            background: #203A4C;
+            padding-top: 17px;
+            padding-bottom: 17px;
+            width: 200px;
+            position: relative;
+            &:hover
+            {
+                background: #5FB4A2;
+                font-family: 'PublicSans';
+                font-size: 12px;
+                line-height: 14px;
+                text-align: center;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+
+            }
+            &::before
+            {
+                content: url(../../images/beautiful__btn.png);
+                padding: 18px 16px;
+                background: #000000;
+                mix-blend-mode: normal;
+                opacity: 0.1;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+
+        }
+    }
+}
+//===================Abuot ME=================//
+.abuot
+{
+    &__inner
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 150px;
+        margin-bottom: 150px;
+        &__png
+        {
+            display: none;
+        }
+        &__jpg
+        {
+            display: none;
+        }
+        &__img
+        {
+            display: block;
+        }
+        &__div
+        {
+            width: 450px;
+            padding-right: 95px;
+            position: relative;
+            &::before
+            {
+                content: url(../../images/line.png);
+                position: absolute;
+                top: -45px;
+            }
+            &::after
+            {
+                content: url(../../images/line.png);
+                position: absolute;
+                left: 0;
+                top: 550px;
+            }
+        }
+        &__h2
+        {
+            font-family: 'Ibarra Real Nova';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 42px;
+            letter-spacing: -0.357143px;
+            color: #33323D;
+        }
+        &__p
+        {
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 30px;
+            color: #33323D;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+        }
+        &__btn
+        {
+            padding: 17px 36px 17px 32px;
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #33323D;
+
+            &:hover
+            {
+                background: #33323D;
+                font-family: 'PublicSans';
+                font-size: 12px;
+                line-height: 14px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: #FAFAFA;
+                cursor: pointer;
+            }
+            
+        }
+    }
+}
+//=====================project====================//
+.project
+{
+    &__inner
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 150px;
+        &__line
+        {
+            display: block;
+            cursor: pointer;
+        }
+        &__lines
+        {
+            display: none;
+            cursor: pointer;
+        }
+        &__btn
+        {
+            padding: 17px 35px 17px 32px;
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #33323D;
+            &:hover
+            {
+                background: #33323D;
+                font-family: 'PublicSans';
+                font-size: 12px;
+                line-height: 14px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: #FAFAFA;
+                cursor: pointer;
+
+            }
+        }
+        &__h2
+        {
+            font-family: 'Ibarra Real Nova';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 42px;
+            letter-spacing: -0.357143px;
+            color: #33323D;
+            width: 350px;
+        }
+    }
+}
